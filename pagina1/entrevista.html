@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrevista</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .background {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: url('https://www.infobae.com/new-resizer/EKstrJqS_fbm2VBcCMObU9VYkmY=/1440x810/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/HVTNVH3FDVFUBBCINCQ2PC45YY.jpg') no-repeat center center/cover;
+        }
+
+        .background::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .content h1 {
+            color: red;
+        }
+
+        .video-container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <h1>Entrevista</h1>
+            <p>Como primera actividad del proyecto de la unidad 3 de la materia de computacion, tuvimos que salir a las calles a preguntar a algun extranjero su opinion sobre algunos aspectos de nuestro pais.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/lyR3_oiyEU4?si=4RqbHm18z0KjyBZJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
