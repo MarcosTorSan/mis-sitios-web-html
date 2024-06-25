@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo Tema Libre: Fórmula 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxatSHY_M3KzoiyG739VskvUzQPH9UyZ-sXQ&s') no-repeat center center fixed;
+            background-size: cover;
+            color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            color: #ff4c4c;
+        }
+        .content {
+            display: flex;
+            margin: 20px 0;
+        }
+        .content img {
+            max-width: 50%;
+            height: auto;
+        }
+        .content:nth-child(even) img {
+            order: 2;
+            margin-left: 20px;
+        }
+        .content:nth-child(odd) img {
+            margin-right: 20px;
+        }
+        .content .text {
+            flex: 1;
+        }
+        p {
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Artículo Tema Libre: Fórmula 1</h1>
+        
+        <div class="content">
+            <div class="text">
+                <p>La Fórmula 1 es una categoría de automovilismo de velocidad considerada la más prestigiosa del mundo. Los coches de Fórmula 1 son los más rápidos del mundo en circuitos de carreras gracias a sus increíbles capacidades de aceleración, velocidad máxima y maniobrabilidad.</p>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5I2jLRX93JI0Q3v6zuIoNcVTY32AbUuEUjA&s" alt="Imagen de un coche de Fórmula 1">
+        </div>
+        
+        <div class="content">
+            <img src="https://img.redbull.com/images/c_crop,x_825,y_0,h_2964,w_2964/c_fill,w_400,h_400/q_auto:low,f_auto/redbullcom/2023/1/20/lsvgpaejccwnocby4lop/los-bulls-en-barcelona" alt="Imagen de un circuito de Fórmula 1">
+            <div class="text">
+                <p>Las carreras de Fórmula 1 se llevan a cabo en circuitos especialmente diseñados para la alta velocidad y la seguridad de los pilotos. Estos circuitos pueden ser permanentes o callejeros, como el famoso circuito de Mónaco.</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="text">
+                <p>Los equipos de Fórmula 1 invierten millones de dólares en investigación y desarrollo para mejorar el rendimiento de sus coches. La tecnología utilizada en estos coches a menudo se traslada a los vehículos de carretera en forma de mejoras en la seguridad y la eficiencia.</p>
+            </div>
+            <img src="https://media.gettyimages.com/id/1698450360/es/foto/suzuka-japan-sergio-perez-of-mexico-driving-the-oracle-red-bull-racing-rb19-stops-in-the.jpg?s=612x612&w=gi&k=20&c=cG8hG4OAbrUP9SBatf8rz8ej7G76lTi7s9LwGsa0kFU=" alt="Imagen de un equipo de Fórmula 1 trabajando">
+        </div>
+
+        <div class="content">
+            <img src="https://www.wdeportes.com/resizer/v2/4275OUW7XRFLLC43WLVBVBFREY.jpg?auth=c9da269c8cb7dd3339222e9d6f65c5ddd66ed71355a90152cd3d09528cace993&width=400&height=400&quality=70&smart=true" alt="Imagen de una carrera de Fórmula 1">
+            <div class="text">
+                <p>La Fórmula 1 es un deporte que atrae a millones de aficionados en todo el mundo. Cada temporada, los equipos y pilotos compiten por el campeonato mundial, un título que otorga gran prestigio y reconocimiento en el mundo del automovilismo.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
